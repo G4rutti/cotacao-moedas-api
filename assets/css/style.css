@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap');
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 300,
+  'GRAD' 0,
+  'opsz' 48;
+}
+main{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+.images{
+    display: flex;
+    margin-bottom: 5vh;
+}
+#image{
+    width: 70vw;
+    height: 20vh;
+    margin: auto;
+}
+.mainContent{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+.mainContent h2{
+    margin: auto;
+    margin-bottom: 5vh;
+}
+.mainInputs{
+    display: flex;
+}
+.options{
+    display: flex;
+    margin: auto;
+}
+.options label{
+    margin-right: 3vw;
+}
+.options button{
+    width: 10vw;
+    border: 0px;
+    border-radius: 5px
+}
+.title{
+    display: flex;
+    justify-content: center;
+    margin-top: 2vh;
+    margin-bottom: 5vh;
+}
+
+.ver{
+    height: 5vh;
+    border-radius: 5px;
+    border: 0ch;
+    width: 20vw;
+    margin: auto;
+    margin-top: 5vh;
+}
+
+@media screen and (min-width:800px) {
+    #image{
+        width: 30vw;
+        height: 40vh;
+        margin: auto;
+    }
+}

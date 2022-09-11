@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Cotação Hoje</title>
+</head>
+<body>
+    <main>
+        <div class="title">
+            <h1>Cotação <span>Hoje</span></h1>
+        </div>
+        <div class="images">
+            <img src="assets/img/raining-money-35.gif" alt="cédula" id="image">
+        </div>
+        <section class="mainContent">
+            <h2 id="resultado"></h2>
+            <div class="mainInputs">
+                <div class="options">
+                    <label for="Conversor">
+                        Moeda:
+                    </label>
+                    <select name="Conversor" id="Conversor">
+                        <option value="USD">Dólar</option>
+                        <option value="EUR">Euro</option>
+                        <option value="BTC">Bitcoin</option>
+                        <option value="BRL">Real</option>
+                    </select>
+                </div>
+                
+                <div class="options">
+                    <label for="Converter">
+                        Moeda:
+                    </label>
+                    <select name="Converter" id="Converter">
+                        <option value="USD">Dólar(s)</option>
+                        <option value="EUR">Euro(s)</option>
+                        <option value="BRL">Real(s)</option>
+                    </select>
+                </div>
+            </div>
+            <button class='ver' onclick="renderConverter()">Ver</button>
+        </section>
+    </main>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
